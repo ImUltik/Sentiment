@@ -55,7 +55,7 @@ local args = {
     }
 }
 remote:FireServer(unpack(args))
-warn("Dupeeeee Readyyyyy!!! Dupeeeee Readyyyyy!!! Dupeeeee Readyyyyy!!!")
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Lezduit?", Text = "Ready to dupe my nigga!", Duration = 10000})
 while task.wait(.1) do
     remote:FireServer(unpack(args))
 end
